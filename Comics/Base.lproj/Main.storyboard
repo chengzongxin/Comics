@@ -78,12 +78,14 @@
                                 <constraints>
                                     <constraint firstItem="rLO-gV-cxb" firstAttribute="top" secondItem="r50-MR-ZGm" secondAttribute="top" id="14g-2z-H36"/>
                                     <constraint firstItem="RZp-tj-OgZ" firstAttribute="centerX" secondItem="r50-MR-ZGm" secondAttribute="centerX" id="31O-5A-ihR"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Nqt-dK-k3z" secondAttribute="trailing" constant="20" symbolic="YES" id="Fck-FW-dmZ"/>
                                     <constraint firstAttribute="bottom" secondItem="rLO-gV-cxb" secondAttribute="bottom" id="GFd-Px-AmP"/>
                                     <constraint firstAttribute="bottom" secondItem="RZp-tj-OgZ" secondAttribute="bottom" id="MjX-EM-0eG"/>
                                     <constraint firstItem="Ihp-i9-mXL" firstAttribute="leading" secondItem="RZp-tj-OgZ" secondAttribute="trailing" constant="20" id="Pxw-SV-uug"/>
                                     <constraint firstItem="RZp-tj-OgZ" firstAttribute="leading" secondItem="rLO-gV-cxb" secondAttribute="trailing" constant="20" id="YBW-7O-r4k"/>
                                     <constraint firstItem="Ihp-i9-mXL" firstAttribute="top" secondItem="r50-MR-ZGm" secondAttribute="top" id="c2r-Yu-KDT"/>
                                     <constraint firstItem="rLO-gV-cxb" firstAttribute="leading" secondItem="r50-MR-ZGm" secondAttribute="leading" id="gqA-QQ-huT"/>
+                                    <constraint firstItem="nk4-8D-y35" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="r50-MR-ZGm" secondAttribute="leading" constant="20" symbolic="YES" id="lUI-uy-rj1"/>
                                     <constraint firstAttribute="bottom" secondItem="Ihp-i9-mXL" secondAttribute="bottom" id="nW4-LF-G0i"/>
                                     <constraint firstItem="Nqt-dK-k3z" firstAttribute="leading" secondItem="RZp-tj-OgZ" secondAttribute="leading" id="pFk-dV-rYb"/>
                                     <constraint firstItem="Nqt-dK-k3z" firstAttribute="top" secondItem="r50-MR-ZGm" secondAttribute="top" id="quw-Vx-wP0"/>
