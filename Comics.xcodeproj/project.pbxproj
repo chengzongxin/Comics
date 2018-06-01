@@ -253,6 +253,7 @@
 		96B83B4520C0FA5E0042DF93 /* GZ07-113.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96B83A5F20C0FA5E0042DF93 /* GZ07-113.jpg */; };
 		96B83B4B20C131E40042DF93 /* ChapterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B83B4A20C131E40042DF93 /* ChapterViewModel.m */; };
 		96B83B4E20C13CFD0042DF93 /* NSString+fileName.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B83B4D20C13CFD0042DF93 /* NSString+fileName.m */; };
+		96B83B5120C147B60042DF93 /* UIScrollView+UITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B83B5020C147B60042DF93 /* UIScrollView+UITouch.m */; };
 		96EC334A20BFB02300EBA679 /* GZ03-000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96EC32D820BFB02300EBA679 /* GZ03-000.jpg */; };
 		96EC334B20BFB02300EBA679 /* GZ03-000_P.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96EC32D920BFB02300EBA679 /* GZ03-000_P.jpg */; };
 		96EC34AF20C00FAC00EBA679 /* GZ05-000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96EC33CB20C00FA100EBA679 /* GZ05-000.jpg */; };
@@ -533,6 +534,8 @@
 		96B83B4A20C131E40042DF93 /* ChapterViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChapterViewModel.m; sourceTree = "<group>"; };
 		96B83B4C20C13CFD0042DF93 /* NSString+fileName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+fileName.h"; sourceTree = "<group>"; };
 		96B83B4D20C13CFD0042DF93 /* NSString+fileName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+fileName.m"; sourceTree = "<group>"; };
+		96B83B4F20C147B60042DF93 /* UIScrollView+UITouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UITouch.h"; sourceTree = "<group>"; };
+		96B83B5020C147B60042DF93 /* UIScrollView+UITouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UITouch.m"; sourceTree = "<group>"; };
 		96EC32D820BFB02300EBA679 /* GZ03-000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GZ03-000.jpg"; sourceTree = "<group>"; };
 		96EC32D920BFB02300EBA679 /* GZ03-000_P.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GZ03-000_P.jpg"; sourceTree = "<group>"; };
 		96EC33CB20C00FA100EBA679 /* GZ05-000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GZ05-000.jpg"; sourceTree = "<group>"; };
@@ -589,6 +592,8 @@
 				961F811120BE611E00DC9ACE /* AppDelegate.m */,
 				96B83B4C20C13CFD0042DF93 /* NSString+fileName.h */,
 				96B83B4D20C13CFD0042DF93 /* NSString+fileName.m */,
+				96B83B4F20C147B60042DF93 /* UIScrollView+UITouch.h */,
+				96B83B5020C147B60042DF93 /* UIScrollView+UITouch.m */,
 				961F811320BE611E00DC9ACE /* ViewController.h */,
 				961F811420BE611E00DC9ACE /* ViewController.m */,
 				96B83B4920C131E40042DF93 /* ChapterViewModel.h */,
@@ -1286,6 +1291,7 @@
 				961F821B20BE767C00DC9ACE /* ComicsCell.m in Sources */,
 				961F821F20BE84AE00DC9ACE /* BrowserController.m in Sources */,
 				961F811520BE611E00DC9ACE /* ViewController.m in Sources */,
+				96B83B5120C147B60042DF93 /* UIScrollView+UITouch.m in Sources */,
 				961F812020BE611E00DC9ACE /* main.m in Sources */,
 				961F811220BE611E00DC9ACE /* AppDelegate.m in Sources */,
 			);

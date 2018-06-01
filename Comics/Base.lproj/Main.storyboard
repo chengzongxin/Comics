@@ -38,13 +38,71 @@
                                     <outlet property="delegate" destination="apV-wo-vVq" id="QLc-a9-s9f"/>
                                 </connections>
                             </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r50-MR-ZGm">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLO-gV-cxb">
+                                        <rect key="frame" x="0.0" y="0.0" width="51" height="44"/>
+                                        <state key="normal" title="privous"/>
+                                        <connections>
+                                            <action selector="previos:" destination="apV-wo-vVq" eventType="touchUpInside" id="dkk-jV-ij1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ihp-i9-mXL">
+                                        <rect key="frame" x="324" y="0.0" width="51" height="44"/>
+                                        <state key="normal" title="next"/>
+                                        <connections>
+                                            <action selector="next:" destination="apV-wo-vVq" eventType="touchUpInside" id="dxH-mM-65v"/>
+                                        </connections>
+                                    </button>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="RZp-tj-OgZ">
+                                        <rect key="frame" x="69" y="14" width="237" height="31"/>
+                                        <connections>
+                                            <action selector="slider:" destination="apV-wo-vVq" eventType="valueChanged" id="uGb-mo-NHH"/>
+                                        </connections>
+                                    </slider>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01/100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nk4-8D-y35">
+                                        <rect key="frame" x="263" y="0.0" width="41" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GANTZ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqt-dK-k3z">
+                                        <rect key="frame" x="71" y="0.0" width="44.5" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="rLO-gV-cxb" firstAttribute="top" secondItem="r50-MR-ZGm" secondAttribute="top" id="14g-2z-H36"/>
+                                    <constraint firstItem="RZp-tj-OgZ" firstAttribute="centerX" secondItem="r50-MR-ZGm" secondAttribute="centerX" id="31O-5A-ihR"/>
+                                    <constraint firstAttribute="bottom" secondItem="rLO-gV-cxb" secondAttribute="bottom" id="GFd-Px-AmP"/>
+                                    <constraint firstAttribute="bottom" secondItem="RZp-tj-OgZ" secondAttribute="bottom" id="MjX-EM-0eG"/>
+                                    <constraint firstItem="Ihp-i9-mXL" firstAttribute="leading" secondItem="RZp-tj-OgZ" secondAttribute="trailing" constant="20" id="Pxw-SV-uug"/>
+                                    <constraint firstItem="RZp-tj-OgZ" firstAttribute="leading" secondItem="rLO-gV-cxb" secondAttribute="trailing" constant="20" id="YBW-7O-r4k"/>
+                                    <constraint firstItem="Ihp-i9-mXL" firstAttribute="top" secondItem="r50-MR-ZGm" secondAttribute="top" id="c2r-Yu-KDT"/>
+                                    <constraint firstItem="rLO-gV-cxb" firstAttribute="leading" secondItem="r50-MR-ZGm" secondAttribute="leading" id="gqA-QQ-huT"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ihp-i9-mXL" secondAttribute="bottom" id="nW4-LF-G0i"/>
+                                    <constraint firstItem="Nqt-dK-k3z" firstAttribute="leading" secondItem="RZp-tj-OgZ" secondAttribute="leading" id="pFk-dV-rYb"/>
+                                    <constraint firstItem="Nqt-dK-k3z" firstAttribute="top" secondItem="r50-MR-ZGm" secondAttribute="top" id="quw-Vx-wP0"/>
+                                    <constraint firstItem="nk4-8D-y35" firstAttribute="trailing" secondItem="RZp-tj-OgZ" secondAttribute="trailing" id="tem-og-8GE"/>
+                                    <constraint firstItem="nk4-8D-y35" firstAttribute="top" secondItem="r50-MR-ZGm" secondAttribute="top" id="w0t-h4-4rS"/>
+                                    <constraint firstAttribute="height" constant="44" id="weB-v7-iya"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ihp-i9-mXL" secondAttribute="trailing" id="xVV-Pe-trz"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="9Yv-4G-Fkt" firstAttribute="leading" secondItem="z4I-fg-dlV" secondAttribute="leading" id="3rW-L7-s3n"/>
+                            <constraint firstItem="r50-MR-ZGm" firstAttribute="leading" secondItem="z4I-fg-dlV" secondAttribute="leading" id="EKU-jn-e37"/>
                             <constraint firstItem="z4I-fg-dlV" firstAttribute="bottom" secondItem="9Yv-4G-Fkt" secondAttribute="bottom" id="Fdu-aP-ZIR"/>
                             <constraint firstItem="9Yv-4G-Fkt" firstAttribute="top" secondItem="z4I-fg-dlV" secondAttribute="top" id="G58-WG-wZo"/>
+                            <constraint firstItem="z4I-fg-dlV" firstAttribute="bottom" secondItem="r50-MR-ZGm" secondAttribute="bottom" id="ZCR-9A-gbu"/>
                             <constraint firstItem="z4I-fg-dlV" firstAttribute="trailing" secondItem="9Yv-4G-Fkt" secondAttribute="trailing" id="ayI-cO-Od1"/>
+                            <constraint firstItem="z4I-fg-dlV" firstAttribute="trailing" secondItem="r50-MR-ZGm" secondAttribute="trailing" id="kSF-aG-EU2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="z4I-fg-dlV"/>
                     </view>
@@ -61,8 +119,12 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="controlView" destination="r50-MR-ZGm" id="2W4-2Y-vxB"/>
                         <outlet property="imgView" destination="HeR-uI-rNm" id="t6j-M5-aid"/>
+                        <outlet property="pageCount" destination="nk4-8D-y35" id="A6a-rY-PMo"/>
+                        <outlet property="pageName" destination="Nqt-dK-k3z" id="xzu-nh-e0N"/>
                         <outlet property="scrollView" destination="9Yv-4G-Fkt" id="O1n-7F-geG"/>
+                        <outlet property="slider" destination="RZp-tj-OgZ" id="i9D-6p-xvz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4VY-Rf-0yV" userLabel="First Responder" sceneMemberID="firstResponder"/>
