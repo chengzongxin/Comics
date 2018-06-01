@@ -30,6 +30,12 @@
 
 @implementation BrowserController
 
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    
+    self.navigationController.navigationBarHidden = NO;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
